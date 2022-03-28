@@ -1,9 +1,9 @@
 // store todo input in variable 
 
-var toDo; 
+var toDo = [ ]; 
 
 function addToDo () {
-	toDo = document.getElementById("input").value; 
+	toDo.push(document.getElementById("input").value);  
 	alert("Added " + toDo);  
 	document.getElementById("checkList").innerHTML = toDo; 
 }  

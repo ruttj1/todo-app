@@ -20,9 +20,24 @@ function displayTasks (toDo) {
 		listItem.id = task;
 		// insert contents of list element
 		listItem.appendChild(displayTask); 
+		// create button element
+		deleteTask = document.createElement("button"); 
+		// create label for button
+		displayDeleteTask = document.createTextNode("X"); 
+		// insert contents of button
+		deleteTask.appendChild(displayDeleteTask);  
+		// create onclick tag for button element and assign function
+		deleteTask.setAttribute("onclick", "removeTask()"); 
 		// create location to insert list element 
 		insertAt = document.getElementById("checkList"); 
 		// insert list element to html
 		insertAt.appendChild(listItem);  
+		//insert button element to html
+		insertAt.appendChild(deleteTask); 
 }
-
+// create function to delete elements
+function removeTask () { 
+	// select element by id
+	//document.getElementById(
+	// delete element 
+} 

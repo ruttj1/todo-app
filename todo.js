@@ -27,17 +27,12 @@ function displayTasks (toDo) {
 		// insert contents of button
 		deleteTask.appendChild(displayDeleteTask);  
 		// create onclick tag for button element and assign function
-		deleteTask.setAttribute("onclick", "removeTask()"); 
+		deleteTask.setAttribute("onclick", "this.parentElement.style.display = 'none'"); 
 		// create location to insert list element 
 		insertAt = document.getElementById("checkList"); 
 		// insert list element to html
 		insertAt.appendChild(listItem);  
-		//insert button element to html
-		insertAt.appendChild(deleteTask); 
+		//insert button element to html in li 
+		listItem.appendChild(deleteTask); 
 }
-// create function to delete elements
-function removeTask () { 
-	// select element by id
-	//document.getElementById(
-	// delete element 
-} 
+

@@ -4,8 +4,7 @@ var toDo = [ ];
 
 function addToDo () {
 	// add users input into array
-	toDo.push(document.getElementById("input").value);  
-	alert("Added " + toDo);  	
+	toDo.push(document.getElementById("input").value);   	
 }  
 // display todo input
 function displayTasks (toDo) {

@@ -32,6 +32,6 @@ function displayTasks (toDo) {
 		// insert list element to html
 		insertAt.appendChild(listItem);  
 		//insert button element to html in li 
-		listItem.appendChild(deleteTask); 
+		listItem.prepend(deleteTask); 
 }
 

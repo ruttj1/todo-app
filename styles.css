@@ -3,3 +3,12 @@
     margin-left: 0;
     padding-left: 1em;
 }
+li {
+    color: black;
+}
+li:nth-child(odd) {
+    background-color: white;
+}
+li:nth-child(even) {
+    background-color: grey;
+}

@@ -12,3 +12,12 @@ li:nth-child(odd) {
 li:nth-child(even) {
     background-color: grey;
 }
+
+#createTask {
+    margin: 0%;
+}
+
+button {
+    margin-right: 5px;
+}
+

@@ -2,6 +2,14 @@
 
 var toDo = [ ]; 
 
+var myInput = document.getElementById("input");
+
+myInput.addEventListener("keypress", function(event){
+	if (event.key === "Enter") {
+		document.getElementById("createTask").click();
+	}
+});
+
 function addToDo () {
 	// add users input into array
 	toDo.push(document.getElementById("input").value);   	

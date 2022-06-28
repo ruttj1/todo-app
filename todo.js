@@ -12,7 +12,8 @@ myInput.addEventListener("keypress", function(event){
 
 function addToDo () {
 	// add users input into array
-	toDo.push(document.getElementById("input").value);   	
+	toDo.push(document.getElementById("input").value);   
+	myInput.value = "";
 }  
 // display todo input
 function displayTasks (toDo) {

@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 #checkList {
     list-style: none;
     margin-left: 0;

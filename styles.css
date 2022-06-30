@@ -6,6 +6,7 @@ body {
     list-style: none;
     margin-left: 0;
     padding-left: 1em;
+    text-align: left;
 }
 li {
     color: black;
